@@ -1,5 +1,5 @@
 {
-    "endpoint": "http://127.0.0.1:8000",
-    "prefix_banner": "images/banner",
-    "prefix_avatar": "images/avatar"
+    "endpoint": "https://odmdevs.github.io/fakeprofile-cdn/",
+    "prefix_banner": "images/banners",
+    "prefix_avatar": "images/avatars"
 }
