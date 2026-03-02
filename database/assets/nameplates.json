@@ -1,0 +1,11 @@
+[
+    {
+        "imgAlt": "COLLECTIBLES_NAMEPLATES_CHERRY_BLOSSOMS_A11Y",
+        "palette": {
+            "darkBackground": "#893A99",
+            "lightBackground": "#B11FCF",
+            "name": "berry"
+        },
+        "src": "http://127.0.0.1:8000/images/nameplate/evernight_nameplate.png"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Hallucination Bundle",
+        "asset": "a_57807030ab60f7ac0c4a1998aa091bbf",
+        "skuId": "100101099222224",
+        "animated": true
+    },
+    {
+        "name": "Spider Halloween Bundle",
+        "asset": "a_7a06f56db5abc7566d86c87b5804dedf",
+        "skuId": "100101099222224",
+        "animated": true
+    },
+    {
+        "name": "Neon Light",
+        "asset": "a_19b258f0d1bf320f024aa7f52d45d294",
+        "skuId": "100101099222224",
+        "animated": true
+    }
+]
