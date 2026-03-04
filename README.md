@@ -17,7 +17,7 @@ But this repository have plus that you can requesting nameplate, decoration into
 ### Request nameplate
 > [!IMPORTANT]
 > To request new nameplate to fakeProfile you need follow these steps, all these steps required fork of repository and pull request, otherwise it'll be a mess and I can't do anything with this and I don't accepting request in Discord and issues.
-1. Make a fork of this repository to make changes only on those locations: `images/nameplates/` and `database/assets/nameplates.json`
+1. Make a fork of this repository to make changes only on those locations: `images/nameplates/`, `database/assets/nameplates.json` and `database/store/nameplates.json`
 2. In `images/nameplates/` add your nameplate image which must be in resolution `248x42` and in next extension:
     - `.png` if you planning non-animated nameplate.
     - `.webp` if you plannin animated nameplate.
@@ -32,12 +32,23 @@ But this repository have plus that you can requesting nameplate, decoration into
             "lightBackground": "#B11FCF",
             "name": "berry"
         },
-        "src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/(your_image_name_here).png"
+        "src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/(image_name_here).png"
     }
 ]
 ```
-- What it means? It means you making new module in `list` like this, and remember that new module adding with `,` after `}`. Where `(your_image_name_here).png` give your image name, for example: `evernight.png` and it should looks like this: `"src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/evernight.png"`.
-4. In pull request make title something like this: `[nameplate] Request of new nameplates` or that makes understand that you requesting this but decoration.
+- What it means? It means you making new module in `list` like this, and remember that new module adding with `,` after `}`. Where `(image_name_here).png` give your image name, for example: `evernight.png` and it should looks like this: `"src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/evernight.png"`.
+4. In `database/store/nameplates.json` you need modify JSON file and add this data in this order:
+```json
+[
+    {
+        "name": "(name_here)",
+        "src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/(nameplate_image_name_here).png",
+        "author": "(your_discord_id)"
+    }
+]
+```
+- It's important file because it makes choose it by bot to apply.
+5. In pull request make title something like this: `[nameplate] Request of new nameplates` or that makes understand that you requesting this but decoration.
 
 ### Request decoration
 - Soon.
