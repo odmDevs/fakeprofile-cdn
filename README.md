@@ -21,31 +21,26 @@ But this repository have plus that you can requesting nameplate, decoration into
 2. In `images/nameplates/` add your nameplate image which must be in resolution `248x42` and in next extension:
     - `.png` if you planning non-animated nameplate.
     - `.webp` if you plannin animated nameplate.
-3. In `database/assets/nameplates.json` you need modify JSON file and add a new nameplate in this order:
+3. In `database/assets/nameplates.json` you need modify JSON file and add a new nameplate in list as a new module:
 ```json
-[
-    ...,
-    {
-        "imgAlt": "COLLECTIBLES_NAMEPLATES_CHERRY_BLOSSOMS_A11Y",
-        "palette": {
-            "darkBackground": "#893A99",
-            "lightBackground": "#B11FCF",
-            "name": "berry"
-        },
-        "src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/(image_name_here).png"
-    }
-]
+{
+    "imgAlt": "COLLECTIBLES_NAMEPLATES_CHERRY_BLOSSOMS_A11Y",
+    "palette": {
+        "darkBackground": "#893A99",
+        "lightBackground": "#B11FCF",
+        "name": "berry"
+    },
+    "src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/(image_name_here).png"
+}
 ```
 - What it means? It means you making new module in `list` like this, and remember that new module adding with `,` after `}`. Where `(image_name_here).png` give your image name, for example: `evernight.png` and it should looks like this: `"src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/evernight.png"`.
-4. In `database/store/nameplates.json` you need modify JSON file and add this data in this order:
+4. In `database/store/nameplates.json` you need modify JSON file and add this data in list as a new module:
 ```json
-[
-    {
-        "name": "(name_here)",
-        "src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/(nameplate_image_name_here).png",
-        "author": "(your_discord_id)"
-    }
-]
+{
+    "name": "(name_here)",
+    "src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/(nameplate_image_name_here).png",
+    "author": "(your_discord_id)"
+}
 ```
 - It's important file because it makes choose it by bot to apply.
 5. In pull request make title something like this: `[nameplate] Request of new nameplates` or that makes understand that you requesting this but decoration.
