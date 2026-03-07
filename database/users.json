@@ -10,7 +10,7 @@
                 "lightBackground": "#B11FCF",
                 "name": "berry"
             },
-            "src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/evernight_nameplate.png"
+            "src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/aglaea_nameplate.png"
         },
         "blocked": {
             "status": false,
@@ -21,7 +21,15 @@
         "avatar": null,
         "banner": "https://odmdevs.github.io/fakeprofile-cdn/images/banners/evernight_banner.png",
         "decoration": null,
-        "nameplate": null,
+        "nameplate": {
+            "imgAlt": "COLLECTIBLES_NAMEPLATES_CHERRY_BLOSSOMS_A11Y",
+            "palette": {
+                "darkBackground": "#893A99",
+                "lightBackground": "#B11FCF",
+                "name": "berry"
+            },
+            "src": "https://odmdevs.github.io/fakeprofile-cdn/images/nameplates/evernight_nameplate.png"
+        },
         "blocked": {
             "status": false,
             "reason": ""
