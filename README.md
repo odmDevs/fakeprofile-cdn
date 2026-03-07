@@ -4,6 +4,7 @@
 - [Requesting nameplate, decoration](#requesting-nameplate-decoration)
     - [Request nameplate](#request-nameplate)
     - [Request decoration](#request-decoration)
+- [Copyrights](#copyrights)
 
 # Information
 ### About
@@ -53,3 +54,6 @@ But this repository have plus that you can requesting nameplate, decoration into
 
 ### Request decoration
 - Soon.
+
+# Copyrights
+This repository can contain content/images which are copyrighted material(for example, there's stores some images from Discord's source) or banned material or user-generated content from users which may be copyrighted or stolen with copyright thing, there's no guarantee that it'll filtered at 100%. If you find copyright work or banned material please consider to create an issue about that to notify developer and it'll be removed from repository.
