@@ -2,11 +2,7 @@
     "849335684161601546": {
         "avatar": null,
         "banner": "https://odmdevs.github.io/fakeprofile-cdn/images/banners/evernight_banner.png",
-        "decoration": {
-            "asset": "a_fcb0de14da228879b455f1f1d3919749",
-            "skuId": "100101099222224",
-            "animated": true
-        },
+        "decoration": "a_fcb0de14da228879b455f1f1d3919749",
         "nameplate": {
             "imgAlt": "COLLECTIBLES_NAMEPLATES_CHERRY_BLOSSOMS_A11Y",
             "palette": {
