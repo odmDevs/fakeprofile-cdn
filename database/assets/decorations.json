@@ -16,5 +16,11 @@
         "asset": "a_19b258f0d1bf320f024aa7f52d45d294",
         "skuId": "100101099222224",
         "animated": true
+    },
+    {
+        "name": "Gold Laurel Wreath",
+        "asset": "a_fcb0de14da228879b455f1f1d3919749",
+        "skuId": "100101099222224",
+        "animated": true
     }
 ]
