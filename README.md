@@ -45,5 +45,7 @@ But this repository have plus that you can requesting nameplate, decoration into
 - It's important file because it makes choose it by bot to apply.
 5. In pull request make title something like this: `[nameplate] Request of new nameplates` or that makes understand that you requesting this but decoration.
 
+- That's all. If you still don't understand what it means and how to add custom nameplate, check this commit to understand that: https://github.com/odmDevs/fakeprofile-cdn/commit/ccb4cab5b861636f3c50654aa8c62564ee1087ae
+
 ### Request decoration
 - Soon.
