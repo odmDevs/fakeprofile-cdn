@@ -14,6 +14,7 @@ This repository is made for storage images and JSON database files here. As bot 
 - You need use dev build of modified client, it's not an official plugin of modified client such as Vencord or Equicord, more information about installation check [installation guide](https://github.com/odmDevs/fakeProfile/wiki/Installing).
 
 # Why it stores on Github but not in hosting server?
+<!-- Honestly, I don't want use Github for storage like database and image. -->
 Hosting and storage issue. Database maybe will weight around from 10-100 KB to 1 MB but the problem that you need store images which is very important for fakeProfile and it dependencies for avatar, banner, badges, decors, effects, nameplates. Like, there's situation that users uploading only animated avatars which can reach to 10 MB and after many times it reaches storage limit to 1 GB or 8 GB on host side, and problem is out here: storage is full and there's no new uploads and updates on database and new users can't apply fakeProfile things. So, what the solution for this? Github repostory. :D
 
 # Requesting nameplate, decoration
